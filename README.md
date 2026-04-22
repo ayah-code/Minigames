@@ -13,6 +13,7 @@ It’s still a work in progress and will grow into a collection of small minigam
 
 - HTML
 - CSS
+- JavaScript
 
 ## Notes
 
