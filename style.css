@@ -624,6 +624,10 @@ a{
     transform: translate(-50%, -50%) scale(1);
   }
 
+  .intro-container {
+    top: 6em;
+  }
+
   .intro-container h1 {
     font-size: 3.5em;
   }
@@ -634,7 +638,11 @@ a{
 /* ============================= */
 @media screen and (max-width: 1199px) {
   .container {
-    transform: translate(-50%, -50%) scale(0.9);
+    transform: translate(-50%, -50%) scale(0.95);
+  }
+
+  .intro-container {
+    top: 6em;
   }
 
   .intro-container h1 {
