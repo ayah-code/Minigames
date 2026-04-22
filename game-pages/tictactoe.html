@@ -10,18 +10,49 @@
 <body>
 
   <!-- HEADER -->
-  <header class="main-header">
-    <nav class="navigation">
-      <a href="/Minigames/main.html">HOME</a>
-      <a href="/Minigames/game-page.html">BROWSE MINIGAMES</a>
-      <a href="/Minigames/about.html">ABOUT</a>
-    </nav>
-  </header>
+  <div id="nav-placeholder"></div>
   
   <!-- INTRO TEXT -->
   <section class="intro-container">
     <h1>Tic Tac Toe</h1>
-  </section>
+  
+    <main class="tictactoe-container">
+
+    <button id="singleplayer"><b>Single Player (Easy)</b></button>
+    <button disabled>Multiplayer (coming soon)</button>
+    <br>
+
+      <header id="tictactoe-header">
+          <div class="player player-active"
+          id="xPlayerDisplay"
+          onclick="choosePlayer('X')">
+          X
+          </div>
+          <h2 id="titleHeader">Choose</h2>
+          <div class="player"
+          id="oPlayerDisplay"
+          onclick="choosePlayer('O')">
+          O
+          </div>
+      </header>
+
+      <div id="tictactoe-board">
+          <div class="cell"></div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+      </div>
+
+      <button id="restartBtn">Restart</button>
+    </main>
+    </section>
+
+    <script src="/Minigames/script.js"></script>
 
 </body>
 </html>
